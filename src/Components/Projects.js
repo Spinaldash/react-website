@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Header } from 'semantic-ui-react'
+import { Image, Header, Divider } from 'semantic-ui-react'
 
 const brewSub = `The Planeswalker's Compendium`
 const gameSub = `Trade your games`
@@ -7,6 +7,8 @@ const brew2Sub = `The Planeswalker's Compendium (Rebuilt with React)`
 
 const Projects = () => (
   <div>
+  <Header as='h2'>Selected Work</Header>
+  <Divider horizontal></Divider>
     <Header as='h2'>
       <Image src='https://c1.staticflickr.com/5/4251/34965091716_29fb270b1c.jpg' />
       <Header.Content>
@@ -34,6 +36,7 @@ const Projects = () => (
         </Header.Subheader>
       </Header.Content>
     </Header>
+    <Divider></Divider>
   </div>
 )
 
